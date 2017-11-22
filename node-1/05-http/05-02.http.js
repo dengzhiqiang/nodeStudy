@@ -12,28 +12,58 @@ var http = require('http');
 var fs = require('fs');
 var mime = require('mime');
 
+// url 解析模块
+var url = require('url');
+
+
 
 var server = http.createServer(function (req, res) {
-    var url = req.url;
+    // console.log(url);
+    var urlObj = url.parse(req.url, true);
+    var pathname = urlObj.pathname;
+    //     Url {
+    //   protocol: null,
+    //   slashes: null,
+    //   auth: null,
+    //   host: null,
+    //   port: null,
+    //   hostname: null,
+    //   hash: null,
+    //   search: '?a=11',
+    //   query: { a: '11' },
+    //   pathname: '/index.html/a/b',
+    //   path: '/index.html/a/b?a=11',
+    //   href: '/index.html/a/b?a=11' }
     //   /
     //   / 05.style.css
     //   / favicon.ico
-
-    console.log(url);
-    if(url == '/'){
+    console.log(pathname);
+    if (pathname == '/') {
         fs.readFile('./05.html', function (err, data) {
             res.writeHead(200, {
-                'Content-Type':'text/html;charset=utf-8'
+                'Content-Type': 'text/html;charset=utf-8'
             });
             // 如果是没有读取到的文件，data为undefined
             // console.log(data);
             res.write(data);
             res.end();
         });
-    }else{
-        fs.readFile(url.slice(1), function (err, data) {
+    } else if (pathname == '/clock.html') {
+        // $ curl http://www.nodestudy.com/clock.html
+
+        var i = 0;
+        var timer = setInterval(function () {
+            i++;
+            res.write('--'+i );
+            if (i == 5) {
+                clearInterval(timer);
+                res.end();
+            }
+        }, 1000);
+    } else {
+        fs.readFile(pathname.slice(1), function (err, data) {
             res.writeHead(200, {
-                'Content-Type': mime.getType(url) + ';charset=utf-8'
+                'Content-Type': mime.getType(pathname) + ';charset=utf-8'
             });
             // 如果是没有读取到的文件，data为undefined
             // console.log(data);
@@ -41,7 +71,4 @@ var server = http.createServer(function (req, res) {
             res.end();
         });
     }
-    
-
-
 }).listen(80, 'www.nodestudy.com');
