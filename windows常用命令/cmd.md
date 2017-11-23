@@ -74,3 +74,30 @@
     copy *.txt  zhi 复制当前目录的所有文件到另外一个文件夹
     xcopy C:\Users\youh\Desktop\deng/s copy 将文件的非空子目录复制到copy目录
     xcopy C:\Users\youh\Desktop\deng/e copy 将文件的空目录和非空子目录复制到copy目录
+
+### 运行对话框常用的命令和功能
+    以下的命令可以直接在运行win+R中运行，也可以直接在cmd中直接运行
+    msconfig 系统配置使用程序    
+    regedit  打开注册表
+    cmd 命令提示符
+    calc 打开计算器
+    devmgmt.msc 设备管理器 (可能没有这个命令)
+    compmgmt.msc 计算机管理
+    gpedit.msc 组策略
+    notepad 打开记事本
+    secpol.msc 本地安全策略
+    tsshutdn 60关机倒计时
+    logoff 注销命令
+
+### 定时关闭计算器
+    shutdown/? 查看相关命令
+    shutdown -s 关闭计算机
+    shutdown -r 关闭并重启计算机
+    shutdown -a 放弃系统关机
+    shutdown -t 设置多长时间后关机
+    shutdown -s -t 1800 30分钟后关机
+    at 12:00 shutdown -s 在12点关机（出现拒绝访问）
+
+
+
+    
