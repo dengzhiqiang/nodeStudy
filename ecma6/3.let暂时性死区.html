@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>暂时性死区</title>
+</head>
+<body>
+    <script>
+        {
+            // 暂时性死区
+            //  Uncaught ReferenceError: a is not defined
+            // var a = 100; let 不允许和var重复定义同一个变量
+            console.log(a);
+
+            let a = 100;
+            console.log(a);
+            
+            
+        }
+    </script>
+</body>
+</html>
