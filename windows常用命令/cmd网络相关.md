@@ -25,6 +25,8 @@
     netstat -a 显示所有活动的tcp连接以及侦听端口
     netstat -s -p tcp 查看本机所有tcp连接情况
     netstat -s -p udp 查看本机所有udp连接情况
+    netstat -s -p icmp 查看本机所有icmp连接情况 icmp internet控制消息协议
+    netstat -s -p ip 查看本机所有ip连接情况 
 
     
     
