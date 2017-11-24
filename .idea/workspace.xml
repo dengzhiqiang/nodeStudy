@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bfa95af-7dbe-4287-a584-01ce4868bf20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecma6/1.ECMAScript 6简介/2.Babel 转码器.js" afterPath="$PROJECT_DIR$/ecma6/1.ECMAScript 6简介/2.Babel 转码器.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows常用命令/cmd网络相关.md" afterPath="$PROJECT_DIR$/windows常用命令/cmd网络相关.md" />
-    </list>
+    <list default="true" id="1bfa95af-7dbe-4287-a584-01ce4868bf20" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,21 +18,8 @@
         <entry file="file://$PROJECT_DIR$/windows常用命令/cmd网络相关.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="280">
-                <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="245">
-                <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <first_editor relative-caret-position="140">
+                <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -188,12 +170,12 @@
       <updated>1511399822666</updated>
       <workItem from="1511399824332" duration="4440000" />
       <workItem from="1511405918958" duration="8783000" />
-      <workItem from="1511485307976" duration="14050000" />
+      <workItem from="1511485307976" duration="14794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27273000" />
+    <option name="totallyTimeSpent" value="28017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,8 +485,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="245">
-            <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <first_editor relative-caret-position="140">
+            <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
@@ -514,8 +496,8 @@
     <entry file="file://$PROJECT_DIR$/windows常用命令/cmd网络相关.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="280">
-            <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <first_editor relative-caret-position="140">
+            <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
