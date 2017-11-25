@@ -15,6 +15,8 @@
     echo 'dengzhiqiang' >> ipconfig.txt 追加内容
     echo 'dengzhiqiang' > ipconfig.txt 删除了原来的内容，并写入
     type ipconfig.txt 查看内容
+    任何命名 /? 查看使用方法
+    type/? 查看type 的使用方法
   
 ### 显示网络状态
     netstat 显示活动的tcp连接，计算机侦听的接口，以太网统计信息，ip路由表
@@ -52,15 +54,28 @@
     net /? 查看语法
     net statistics 查看本机的统计服务
     net statistics server 查看本地服务器服务的统计信息
+    net config 查看本机上可以配置的服务
+    net config workstation 查看本地工作站上的配置服务
+    net localgroup 查看本地组列表
     
+### 网络诊断
+        
+### ping 相当于向目标发送数据，返回则正常
+    ping/? 查看ping的用法    
+    ping 127.0.0.1 测试网卡是否正常
+
+### 诊断网络协议
+    ipconfig/all 查看本机ip，在ping本地地址（ping 192.168.0.106），如果不能正常返回，表明网络协议故障，应该重点排查网络协议的配置。比如tcp/ip协议，    
     
-    
-    
-    
-    
-    
-    
-    
+### 诊断路由器配置
+    ipconfig/all 
+        获取路由器地址==> DHCP 服务器 . . . . . . . . . . . : 192.168.0.1   
+    arp -a 192.168.0.1           8c-a6-df-b2-fb-23     动态 
+    得出：路由器的ip是192.168.0.1
+    ping 路由器地址：如果不能返回信息，表示是路由器与电脑之间有错误
+
+### 测试hosts文件是否正常
+    ping localhost 测试hosts文件是否正常      
     
     
     
