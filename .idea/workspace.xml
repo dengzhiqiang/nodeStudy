@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/ecma5/array/1.indexof.js" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bfa95af-7dbe-4287-a584-01ce4868bf20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node-1/06-global/9.__dirname.js" afterPath="$PROJECT_DIR$/node-1/06-global/9.__dirname.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows常用命令/cmd.md" afterPath="$PROJECT_DIR$/windows常用命令/cmd.md" />
-    </list>
+    <list default="true" id="1bfa95af-7dbe-4287-a584-01ce4868bf20" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cmd.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/windows常用命令/cmd.md">
+      <file leaf-file-name="Linux-根目录介绍.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux/Linux-根目录介绍.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="213">
-                <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <first_editor relative-caret-position="70">
+                <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -97,6 +93,10 @@
         <option value="$PROJECT_DIR$/momentjs/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/windows常用命令/cmd.md" />
+        <option value="$PROJECT_DIR$/linux/Linux-常用指令.txt" />
+        <option value="$PROJECT_DIR$/linux/Linux-常用指令.md" />
+        <option value="$PROJECT_DIR$/linux/vi编辑器.md" />
+        <option value="$PROJECT_DIR$/linux/Linux-根目录介绍.md" />
       </list>
     </option>
   </component>
@@ -146,6 +146,11 @@
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,11 +172,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\node\linux" />
       <recent name="F:\github\node\ecma5\date" />
       <recent name="F:\github\node\ecma5\array" />
       <recent name="F:\github\node\git常用命令" />
       <recent name="F:\github\node\node-1\07-event" />
-      <recent name="F:\github\node\node-1\06-global" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,12 +206,12 @@
       <workItem from="1511485307976" duration="14857000" />
       <workItem from="1511572124219" duration="13058000" />
       <workItem from="1511745018876" duration="4843000" />
-      <workItem from="1511750694340" duration="1304000" />
+      <workItem from="1511750694340" duration="2753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47285000" />
+    <option name="totallyTimeSpent" value="48734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +232,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46943483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.449827" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -254,21 +259,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node-1/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="302" column="7" lean-forward="true" selection-start-line="302" selection-start-column="7" selection-end-line="302" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node-1/node_modules/utils/lib/string/isString.js" />
     <entry file="file://$PROJECT_DIR$/node-1/node_modules/utils/lib/string/count.js" />
     <entry file="file://$PROJECT_DIR$/node-1/node_modules/for-own/index.js" />
     <entry file="file://$PROJECT_DIR$/node-1/node_modules/utils/lib/object/forOwn.js" />
@@ -588,8 +578,50 @@
     <entry file="file://$PROJECT_DIR$/windows常用命令/cmd.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="213">
-            <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <first_editor relative-caret-position="458">
+            <caret line="82" column="58" lean-forward="false" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/Linux-常用指令.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="7070">
+          <caret line="202" column="40" lean-forward="true" selection-start-line="202" selection-start-column="40" selection-end-line="202" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-245">
+            <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/vi编辑器.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/Linux-根目录介绍.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="70">
+            <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
