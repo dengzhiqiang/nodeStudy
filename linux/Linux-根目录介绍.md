@@ -55,6 +55,13 @@
     例如：
     /etc/passwd  用于存储用户信息的文件
     /etc/group   用于存储组别信息的文件
+    
+### 13. /etc/passwd
+    系统用户列表以及每个用户的基本配置信息
+    dengzhiqiang:x:1000:1000::/home/dengzhiqiang:/bin/bash
+        /bin/bash：表示使用的shell程序
+
+
 
 ### 11. /lib
     library 

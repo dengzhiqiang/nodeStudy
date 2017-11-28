@@ -204,4 +204,26 @@
                 100k----> 千字节  == 100*1024字节
                 100M----> 兆      == 100*1024*1024字节
         
-         
+### 查看命令的参数
+    man 命名名称  查看命令的手册
+    man ls         
+    [root@iZ96es4rdqvzy0Z /]# man -k mkdir
+    mkdir (1)            - make directories
+    mkdirhier (1)        - makes a directory hierarchy
+    (1) 表示区域号 可执行程序和shell
+    
+### 查看帮助信息
+    hostname --help
+    ls --help    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
