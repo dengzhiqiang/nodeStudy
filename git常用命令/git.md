@@ -20,6 +20,8 @@
 
     如果已经有了远程的仓库，需要将代码克隆到本地来
     git clone git@github.com/你的github用户名/仓库名.git
+    git push -u origin master # 客户端首次提交
+    
 
 ### (6)添加忽略的文件夹
     (1) /mtk/               过滤整个文件夹
