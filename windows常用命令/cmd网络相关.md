@@ -115,9 +115,22 @@
          10     *        *        *     请求超时。
          11    46 ms    45 ms    40 ms
 
-### pathping 
-    
-    
+### pathping 和tracert相同的功能
+    pathping www.baidu.com 查看路径信息
+    pathping -n www.baidu.com 查看路径信息,不将本地主机ip地址解析为域名
+
+### 检查dns服务器
+    nslookup 显示dns服务器是否正常
+    nslookup www.baidu.com 检查百度的dns服务器是否正常    
+
+### 利用dos批处理ping网中可能存在的计算机
+
+### 显示局域网中计算机ip列表
+    arp -a    
+
+### 查看对方计算机名称
+    nbtstat -a 192.168.0.103   能查看计算机名称，处于哪个工作组
+    ping -a 192.168.0.103 也能查看计算机名称
     
     
     
