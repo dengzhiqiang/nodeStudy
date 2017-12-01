@@ -135,3 +135,16 @@
 ### 也可以命令设置跟踪远程库和本地库
     git branch --set-upstream master origin/master
     git branch --set-upstream develop origin/develop
+
+### 撤销最后一次提交的情况
+    步骤如下：
+    步骤1、使用 ”git log“ 命令 找到 想要撤销的操作之前的一次提交的commit id ；
+        比如：使用 git log命令如下结果
+        commit-id1
+        commit-id2
+        commit-id3
+        如果想要撤销commit_id1的话，那么我们就要选择commit-id2
+    
+    步骤2、使用如下两个命令撤销提交：
+        git reset --hard  commit-id2
+        git push origin HEAD --force

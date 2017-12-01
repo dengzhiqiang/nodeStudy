@@ -12,9 +12,6 @@
     ctrl + y 删除当前行
     
     
-    
-    
-    
 
 ### 文件相关
     ctrl + shift + n 搜索文件
@@ -30,8 +27,9 @@
     project 查看项目
     structure 查看当前文件的结构，比如代码的方法，html的结构
 
-
-
+### 控制台字体设置 terminal console
+    setting -> editor -> Codes & Fonts -> Console Font (颜色是 console color)
+    重启后生效
 
 
 
