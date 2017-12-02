@@ -253,7 +253,8 @@
     hostname --help
     ls --help    
 
-    
+### 看linux是32位还是64位
+    getconf LONG_BIT 
     
 
 

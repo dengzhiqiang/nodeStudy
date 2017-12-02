@@ -36,6 +36,17 @@
     4.git pull ->将服务器的代码更新到本地仓库中 git pull origin master     
     5.git status 查看更改状态
 
+### 配置
+    git config --list 可以查看配置列表
+    git config --global ... 全局配置
+
+
+
+
+
+
+
+
 
 ### Git常用命令
 #### 查看、添加、提交、删除、找回，重置修改文件
