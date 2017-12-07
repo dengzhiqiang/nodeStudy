@@ -31,6 +31,12 @@
     setting -> editor -> Codes & Fonts -> Console Font (颜色是 console color)
     重启后生效
 
+### editor 编辑器主体设置
+    color scheme --> Darcular 
+
+### markdown插件    
+    Markdown support for IntelliJ products
+    
 
 
 

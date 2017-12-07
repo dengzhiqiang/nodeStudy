@@ -77,7 +77,7 @@
     > mkdir  dirname
     > mkdir  dir/newdir                 //在dir下创建一个newdir
     创建多级目录，如果"新目录"个数大于1个数量，就要设置"-p"参数
-    > mkdir -p  newdir/newdir/newdir    //创建多级递归目录
+    > mkdir -p  newdir/newdir/newdir    //创建多级递归目录                                    
     > mkdir -p  dir/newdir/newdir    //创建多级递归目录
     > mkdir -p dir/newdir/newdir/newdir
     
