@@ -6,3 +6,5 @@
     nvm current  ## 显示当前的版本
     nvm alias <name> <version>  ## 给不同的版本号添加别名
     nvm unalias <name>  ## 删除已定义的别名
+    
+    nvm install  latest 安装最新版的node
