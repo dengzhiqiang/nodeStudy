@@ -17,3 +17,18 @@
     
     通过cmd line
     通过Node.js API
+
+### npm install html-webpack-plugin --save-dev
+    
+    
+
+### 常用命令 
+    webpack --help 显示所有命令
+    webpack entry.js entry.bundle.js --module-bind "css=style-loader!css-loader" 绑定模块， 要用双引号 括起来
+    --progress 显示过程
+    --display-modules 显示模块
+    --watch 监听
+    --display-reasons 显示为什么要打包这个模块，通常也就是哪里加载了
+    
+    webpack --config webpack.dev.config.js 直接运行开发版本的配置，默认是webpack.config.js
+    

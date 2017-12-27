@@ -1,0 +1,13 @@
+{
+  "name": "webpack3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack":"webpack --config webpack.config.js --progress --display-modules --display-reasons"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
