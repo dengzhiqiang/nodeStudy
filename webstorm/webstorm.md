@@ -10,6 +10,7 @@
     ctrl + shift + enter 当前行下面插入一个空白行，并把光标移动到下一行
     ctrl + del 删除后面的一个单词
     ctrl + y 删除当前行
+    ctrl + shift + v 最近粘贴的
     
     
 

@@ -5,14 +5,30 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>首页</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <style>
-        body{
+        body {
             background: darkgoldenrod;
         }
     </style>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main2.entry %>"></script>
 </head>
 <body>
+<!-- 我是注释 -->
 
+
+<%= htmlWebpackPlugin.options.date %>
+
+
+<% for (var key in htmlWebpackPlugin.files){%>
+<%= key %>: <%= JSON.stringify(htmlWebpackPlugin.files[key]) %>
+<% } %>
+
+<div>========================================</div>
+
+<% for (var key in htmlWebpackPlugin.options){%>
+<%= key %>: <%= JSON.stringify(htmlWebpackPlugin.files[key]) %>
+<% } %>
 </body>
 </html>
