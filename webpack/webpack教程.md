@@ -4,6 +4,8 @@
     http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html
     
     https://doc.webpack-china.org/concepts/
+    https://www.webpackjs.com/loaders/  中文网站
+
 
 ### 首先，在全局环境中安装Webpack和webpack-dev-server
     npm i -g webpack webpack-dev-server
@@ -31,4 +33,6 @@
     --display-reasons 显示为什么要打包这个模块，通常也就是哪里加载了
     
     webpack --config webpack.dev.config.js 直接运行开发版本的配置，默认是webpack.config.js
-    
+
+### file-loader 图片处理    
+### url-loader 
