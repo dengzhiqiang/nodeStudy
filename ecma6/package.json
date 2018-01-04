@@ -1,0 +1,17 @@
+{
+  "name": "ecma6",
+  "version": "1.0.0",
+  "description": "document.body.style.background = 'black'\r     document.body.style.color = 'white'\r     document.querySelector('#content pre').style.background = '#4b4a4a' ;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
+}
