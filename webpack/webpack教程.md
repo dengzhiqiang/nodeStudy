@@ -33,6 +33,9 @@
     --display-reasons 显示为什么要打包这个模块，通常也就是哪里加载了
     
     webpack --config webpack.dev.config.js 直接运行开发版本的配置，默认是webpack.config.js
+    /*--content-base dist/example：服务器加载页面所在目录*/
+    /*--colors 彩色输出*/
+
 
 ### file-loader 图片处理    
 ### url-loader 
